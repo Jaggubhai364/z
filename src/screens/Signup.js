@@ -11,7 +11,7 @@ export default function Signup() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const responce = await fetch("https://y-27mh.onrender.com", {
+    const responce = await fetch("https://y-3.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
